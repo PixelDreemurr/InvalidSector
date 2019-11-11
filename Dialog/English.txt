@@ -1,0 +1,88 @@
+﻿# NOTES:
+# The # Symbol at the start of a line counts as a Comment. To include in dialog, use a \#
+# The . Symbol will cause a pause unless escaped with \. (ex: Mr. Oshiro has a pause, Mr\. Oshiro does not)
+# Newlines automatically create a Page Break, unless there is an {n} command on the previous line
+# Commands: Anything inside of curly braces {...} is a command and should not be translated.
+
+# Inline Text Commands:
+# {~}wavy text{/~}
+# {!}impact text{/!}
+# {>> x}changes speed at which characters are displayed{>>}
+# {# 000000}this text is black{#} (uses HEX color values)
+# {+MENU_BEGIN} inserts the dialog from the MENU_BEGIN value (in English, "CLIMB")
+# {n} creates a newline, without a page break
+# {0.5} creates a 0.5 second pause
+# {big}this text is large{/big}
+
+# Gameplay Control Commands (should never change)
+# {trigger x} this triggers an in-game event
+# {anchor} controls the visual position of the textbox in-game
+
+# Amethyst/map
+ Amethyst_map= Invalid Sector
+ Amethyst_map_InvalidSector= Invalid Sector
+ Amethyst_map_InvalidSector_b_1= Entrance
+ poem_Amethyst_map_InvalidSector_A= Crystal Heart Name
+ poem_Amethyst_map_InvalidSector_B= Crystal Heart Name B
+ Amethyst_map_InvalidSector_b_0= Text Line 1
+ Amethyst_map_InvalidSector_remix=(Gaming Workshop B-Sides)
+ Amethyst_map_InvalidSector_remix_artist=(Celeste)
+
+InvalidSectorTestNPC=
+[MADELINE left sad]
+{~}I{/~} {!}Like{/!} {>> 0.1}Testing{>>} {n} Dialog {big} so yea {/big}
+
+InvalidSectorK1S1=
+[MADELINE right normal]
+Based on this note it seems I have arrived in the right place!
+
+InvalidSectorK1S2=
+[MADELINE right distracted]
+I just need to follow the trail until I get to the locked door...
+
+InvalidSectorK1S3=
+[MADELINE right sad]
+Then I just need to scavenge around a little for the {#f6ff00}key{#}.
+
+InvalidSectorK1S4=
+[MADELINE right determined]
+Time to see what else this mountain is hiding.
+
+InvalidSectorK1S5=
+[MADELINE right distracted]
+It seems that the note just ends here... {0.5}{0.5} That can't be good.
+
+InvalidSectorK2S1=
+[MADELINE_MIRROR right deadpan]
+The day forgotten...
+Never {~}recalled{/~}
+[MADELINE left sad]
+Are you {0.5}{0.5}ok?
+[MADELINE_MIRROR right deadpan]
+They forgot about... {0.5}{~}what happened{/~}
+The leftovers still remain on the table
+[MADELINE left upset]
+Can you please explain what you are talking about?
+[MADELINE_MIRROR right deadpan]
+And if you ever continue passed this point...
+I can't guarantee what will come of you
+And you will see things and do things you weren't meant to
+[MADELINE left upset]
+Who are you anyway?
+[MADELINE_MIRROR right deadpan]
+Last time I went on my adventure, I went down this trail...
+That was the last time I went anywhere.
+I remain stuck {~}inbetween{/~}
+[MADELINE left upset]
+Alright. Say nothing if you can hear me.
+[MADELINE_MIRROR right deadpan]
+...
+[MADELINE left normal]
+Ok. So now I ask again. Who are you anyway?
+[MADELINE_MIRROR right deadpan]
+This... gap
+It isn't too wide though
+It's just big enough to cause a crack in the layers
+I got stuck {1.5}{~}inbetween{/~}
+[MADELINE left upset]
+...
